@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--
+    Blog Theme for Hexo: St. Andrews
+    Designed by Sharvari Desai
+    https://gumroad.com/l/hexo-theme-standrews
+  -->
+
+  <!-- Favicon -->
+  
+
+  <!-- Title -->
+  
+  <title>CityGrid - Fuwen Deng</title>
+
+  <!--Description-->
+  
+      <meta name="description" content="简介CityGrid是我在同济大学交通新兴计算与感知实验室工作期间完成的实验项目。本项目中，我们基于Multi-Agent深度强化学习和计算机视觉技术，完成多种场景的交通状态感知和智能控制。
+主要工作
+交叉口群协同控制：建立Multi-Agent深度强化学习模型，设计了城市交叉口群协同控制策略；
+城">
+  
+
+  <!--Author-->
+  
+      <meta name="author" content="Fuwen">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="CityGrid"/>
+  
+
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="Fuwen Deng"/>
+
+  <!-- Pure CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Montserrat:300" rel="stylesheet">
+  
+<link rel="stylesheet" href="/css/styles.css">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Analytics -->
+  
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-50178709-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+  <body>
+
+		<div class="container my-4">
+  <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-3">
+    <a class="navbar-brand ml-2" href="/"><span class="title">Fuwen Deng</span></a>
+    <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center mt-3 mt-md-0" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto my-auto">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        
+      </ul>
+      <hr class="hidden-md-up" />
+    </div>
+  </nav>
+</div>
+
+
+		<div class="container">
+			
+  <div class="row">
+    <div class="col-12">
+          <img class="img-fluid cover-image" src="/images/covers/CityGrid.png" alt="CityGrid">
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-12 col-lg-8 offset-lg-2 mt-4">
+
+    <div class="post-page text-center my-4">
+      <h1>CityGrid</h1>
+      <hr>
+      <span class="date">2019-10-06</span>
+    </div>
+
+    <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>CityGrid是我在同济大学交通新兴计算与感知实验室工作期间完成的实验项目。本项目中，我们基于Multi-Agent深度强化学习和计算机视觉技术，完成多种场景的交通状态感知和智能控制。</p>
+<h3 id="主要工作"><a href="#主要工作" class="headerlink" title="主要工作"></a>主要工作</h3><ul>
+<li><strong>交叉口群协同控制</strong>：建立Multi-Agent深度强化学习模型，设计了城市交叉口群协同控制策略；</li>
+<li><strong>城市快速路智能控制</strong>：考虑城市快速路匝道限流控制（Ramp Metering）问题，采用强化学习方法完成多匝道协同控制；</li>
+<li><strong>基于单目摄像头和毫米波雷达的交通状态精细化感知</strong>：采用摄像头、毫米波雷达，完成同济大学嘉定校区车辆姿态估计、跟踪等工作。</li>
+</ul>
+<center>
+<div id="player" style="text-align: center; margin-bottom: 30px;"></div>
+<script src="//player.polyv.net/script/player.js"></script>
+<script>
+var player = polyvPlayer({
+wrap: '#player',
+width: '100%',
+height: 450,
+vid: '569f86ff0e372d4384ad9d1a64ae98df_5',
+});
+</script>
+</center>
+
+<h3 id="交叉口群协同控制"><a href="#交叉口群协同控制" class="headerlink" title="交叉口群协同控制"></a>交叉口群协同控制</h3><p>项目中，针对上海西藏南路周边12个交叉口，以信号灯组为智能体，建立Multi-Agent深度强化学习模型，基于Multi-Agent PPO模型，设计了城市交叉口群协同控制策略。采用德国宇航局开源的SUMO交通仿真软件作为仿真环境，通过Python API实时控制信号灯组。我们的模型较传统感应控制方法可降低高峰期延误约6%。</p>
+<center>
+<img width="700" height="300" style="border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/2019/10/06/CityGrid/CityGrid-Demo.gif">
+<div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">Intelligent Control of Urban Intersection Group</div>
+</center>
+
+<br>
+
+<h3 id="城市快速路智能控制"><a href="#城市快速路智能控制" class="headerlink" title="城市快速路智能控制"></a>城市快速路智能控制</h3><p>以快速路感应线圈为数据来源，建立Multi-Agent深度强化学习匝道控制模型，结合匝道控制问题的特点，设计State、Reward和Action。实验结果表明，我们设计的模型，控制效果优于传统PID控制方法。相关研究成果发表在IEEE ITSC 2019会议。</p>
+<center class="half">
+<div>
+<img width="350" height="200" style="border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08); margin: 2px;" src="/2019/10/06/CityGrid/Ramp.png"><img width="350" height="200" style="border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08); margin: 2px;" src="/2019/10/06/CityGrid/Model.png">
+</div>
+<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+display: inline-block;
+color: #999;
+padding: 2px;">Ramp Model and PPO Algorithm Framework</div>
+</center>
+
+<br>
+
+<h3 id="交通状态精细化感知"><a href="#交通状态精细化感知" class="headerlink" title="交通状态精细化感知"></a>交通状态精细化感知</h3><p>为了应用现有的交通基础设施提供交通场景感知分析服务，我们应用关键点检测、目标跟踪、场景重建等技术，可以从监控摄像头中识别、跟踪车辆和行人，并对交通环境进行重建。除基于单目摄像头的实验外，我们尝试建立了毫米波雷达和摄像头数据融合方法。</p>
+<center class="half">
+<img width="700" height="250" style="border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/2019/10/06/CityGrid/OcclusionNet.png">
+<div style="color:orange; border-bottom: 1px solid #d9d9d9;
+display: inline-block;
+color: #999;
+padding: 2px;">OcclusionNet for Vehicle Keypoint Detection</div>
+</center>
+
+
+    
+
+
+  </div>
+</div>
+
+
+
+			<footer class="text-center mt-5 py-5">
+  
+  
+    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter mr-4"></i></a>
+  
+  
+  
+  
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin mr-4"></i></a>
+  
+  
+  
+  
+  
+  
+</footer>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!-- Disqus Comments -->
+
+
+
+  </body>
+</html>
